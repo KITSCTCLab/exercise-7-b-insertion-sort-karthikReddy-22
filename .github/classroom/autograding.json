@@ -1,0 +1,104 @@
+{
+  "tests": [
+    {
+      "name": "Test Case 1",
+      "setup": "",
+      "run": "python3 Main.py",
+      "input": "5, 1, 1, 2, 0, 0",
+      "output": "[0, 0, 1, 1, 2, 5]",
+      "comparison": "exact",
+      "timeout": 1,
+      "points": 3
+    },
+    {
+      "name": "Test Case 2",
+      "setup": "",
+      "run": "python3 Main.py",
+      "input": "-23, -40, 10, 5, -9, 0, 1",
+      "output": "[-40, -23, -9, 0, 1, 5, 10]",
+      "comparison": "exact",
+      "timeout": 1,
+      "points": 3
+    },
+    {
+      "name": "Test Case 3",
+      "setup": "",
+      "run": "python3 Main.py",
+      "input": "5, 2, 3, 1",
+      "output": "[1, 2, 3, 5]",
+      "comparison": "exact",
+      "timeout": 1,
+      "points": 3
+    },
+    {
+      "name": "Test Case 4",
+      "setup": "",
+      "run": "python3 Main.py",
+      "input": "2, 4, 6, 8, 3",
+      "output": "[2, 3, 4, 6, 8]",
+      "comparison": "exact",
+      "timeout": 1,
+      "points": 3
+    },
+    {
+      "name": "Test Case 5",
+      "setup": "",
+      "run": "python3 Main.py",
+      "input": "-23, -40, 10, 5, -9, 0, 1, -23, -40, 10, 5, -9, 0, 1",
+      "output": "[-40, -40, -23, -23, -9, -9, 0, 0, 1, 1, 5, 5, 10, 10]",
+      "comparison": "exact",
+      "timeout": 1,
+      "points": 3
+    },
+    {
+      "name": "Test Case 6",
+      "setup": "",
+      "run": "python3 Main.py",
+      "input": "-5, -1, -1, -2, 0, 0",
+      "output": "[-5, -2, -1, -1, 0, 0]",
+      "comparison": "exact",
+      "timeout": 1,
+      "points": 3
+    },
+    {
+      "name": "Test Case 7",
+      "setup": "",
+      "run": "python3 Main.py",
+      "input": "3, 4, 7, 5, 6, 2, 1",
+      "output": "[1, 2, 3, 4, 5, 6, 7]",
+      "comparison": "exact",
+      "timeout": 1,
+      "points": 3
+    },
+    {
+      "name": "Test Case 8",
+      "setup": "",
+      "run": "python3 Main.py",
+      "input": "12, -11, 13, -12, 10, -10",
+      "output": "[-12, -11, -10, 10, 12, 13]",
+      "comparison": "exact",
+      "timeout": 1,
+      "points": 3
+    },
+    {
+      "name": "Test Case 9",
+      "setup": "",
+      "run": "python3 Main.py",
+      "input": "53876, 12345, 67889, -12345",
+      "output": "[-12345, 12345, 53876, 67889]",
+      "comparison": "exact",
+      "timeout": 1,
+      "points": 3
+    },
+    {
+      "name": "Test Case 10",
+      "setup": "",
+      "run": "python3 Main.py",
+      "input": "-53876, 12345, -67889, -12345",
+      "output": "[-67889, -53876, -12345, 12345]",
+      "comparison": "exact",
+      "timeout": 1,
+      "points": 3
+    }
+  ]
+}
